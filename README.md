@@ -10,6 +10,8 @@ see what you are getting before you ship it.
 `50/52` directory banks have a true vector &nbsp;·&nbsp; `39/63` have a crisp
 vector icon &nbsp;·&nbsp; `88/90` files are genuine vector art &nbsp;·&nbsp; `0` embedded rasters
 
+**[→ Browse the gallery](https://iamashruu.github.io/bangladesh-bank-logos/)**
+
 </div>
 
 ---
@@ -49,9 +51,13 @@ tiers are kept alongside it for comparison rather than thrown away.
 
 ## Quick start
 
+The gallery is live at **[iamashruu.github.io/bangladesh-bank-logos](https://iamashruu.github.io/bangladesh-bank-logos/)** — nothing to install.
+
+To work with the files locally:
+
 ```bash
-git clone <this-repo> bank-logos
-cd bank-logos
+git clone https://github.com/iamashruu/bangladesh-bank-logos.git
+cd bangladesh-bank-logos
 open index.html          # macOS — or just drag it into a browser
 ```
 
