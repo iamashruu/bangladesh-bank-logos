@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -78,6 +78,8 @@ kbd{position:absolute;right:10px;top:50%;transform:translateY(-50%);font:500 11p
 .seg button{font:inherit;font-size:12.5px;font-weight:500;padding:6px 11px;border:0;border-radius:7px;
   background:transparent;color:var(--muted);cursor:pointer;white-space:nowrap}
 .seg button[aria-pressed=true]{background:var(--accent);color:var(--accent-ink)}
+.seg button.solo{color:var(--ink-2)}
+.seg button.solo:hover{color:var(--accent)}
 .seg button:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
 .seg .lbl{font-size:11px;color:var(--muted);align-self:center;padding:0 8px 0 4px;
   letter-spacing:.06em;text-transform:uppercase}
@@ -188,6 +190,9 @@ footer a{color:var(--accent)}
   .sheet{margin:0;border-radius:0;min-height:100%;border:0}
 }
 </style>
+<script>
+try{if(localStorage.getItem('bbl-theme')==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}
+</script>
 </head>
 <body data-tile="white">
 <div class="wrap">
@@ -221,8 +226,8 @@ footer a{color:var(--accent)}
         <button data-tile="dark" aria-pressed="false">Dark</button>
         <button data-tile="transparent" aria-pressed="false">Transparent</button>
       </div>
-      <div class="seg" role="group" aria-label="Page theme">
-        <button id="theme" aria-pressed="false">Dark page</button>
+      <div class="seg">
+        <button id="theme" class="solo">Dark page</button>
       </div>
       <span class="count" id="count"></span>
     </div>
@@ -430,11 +435,14 @@ document.querySelectorAll('.seg [data-form]').forEach(b => b.onclick = () => {
     o.setAttribute('aria-pressed', String(o === b)));
   FORM = b.dataset.form; render();
 });
-document.getElementById('theme').onclick = function(){
-  const on = this.getAttribute('aria-pressed') === 'true';
-  this.setAttribute('aria-pressed', String(!on));
-  document.documentElement.setAttribute('data-theme', !on ? 'dark' : 'light');
-};
+const themeBtn = document.getElementById('theme');
+function setTheme(dark){
+  document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+  themeBtn.textContent = dark ? 'White page' : 'Dark page';
+  try { localStorage.setItem('bbl-theme', dark ? 'dark' : 'light'); } catch {}
+}
+themeBtn.onclick = () => setTheme(document.documentElement.getAttribute('data-theme') !== 'dark');
+setTheme(document.documentElement.getAttribute('data-theme') === 'dark');   // sync the label
 
 q.addEventListener('input', render);
 addEventListener('keydown', e => {
