@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bangladesh Bank Logos</title>
+<meta name="description" content="Vector logos for 63 banks operating in Bangladesh. Browse, preview and copy.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  color-scheme:light;
+  --bg:#f3f5f4; --surface:#fff; --raised:#fff; --ink:#131817; --ink-2:#3d4a47;
+  --muted:#6b7975; --line:#e0e6e3; --line-2:#eef2f0;
+  --accent:#0f6b52; --accent-ink:#fff; --accent-soft:#e4f0eb;
+  --amber:#8a5a12; --amber-soft:#fbf2e0;
+  --shadow:0 1px 2px rgba(19,24,23,.05), 0 8px 24px -12px rgba(19,24,23,.16);
+  --tile:#fff; --tile-line:#e6ebe9;
+  --r:14px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){
+  color-scheme:dark;
+  --bg:#0e1211; --surface:#171d1b; --raised:#1d2422; --ink:#e9efec; --ink-2:#b9c5c1;
+  --muted:#8b9994; --line:#2a3331; --line-2:#222a28;
+  --accent:#4fbf9a; --accent-ink:#06211a; --accent-soft:#16302a;
+  --amber:#d9ab52; --amber-soft:#2c2417;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 30px -14px rgba(0,0,0,.7);
+  --tile-line:#2a3331;
+}}
+:root[data-theme=dark]{
+  color-scheme:dark;
+  --bg:#0e1211; --surface:#171d1b; --raised:#1d2422; --ink:#e9efec; --ink-2:#b9c5c1;
+  --muted:#8b9994; --line:#2a3331; --line-2:#222a28;
+  --accent:#4fbf9a; --accent-ink:#06211a; --accent-soft:#16302a;
+  --amber:#d9ab52; --amber-soft:#2c2417;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 30px -14px rgba(0,0,0,.7);
+  --tile-line:#2a3331;
+}
+/* Logo tiles default to white in both themes: a logo is drawn for paper. */
+body[data-tile=dark]{ --tile:#111514; --tile-line:#2b3432 }
+body[data-tile=transparent]{ --tile:transparent; --tile-line:#d9e0dd }
+
+*{box-sizing:border-box}
+html,body{margin:0}
+body{
+  background:var(--bg); color:var(--ink);
+  font:400 15px/1.5 Outfit,ui-sans-serif,-apple-system,"Segoe UI",sans-serif;
+  -webkit-font-smoothing:antialiased;
+  padding-bottom:calc(64px + env(safe-area-inset-bottom,0px));
+}
+.wrap{max-width:1280px;margin:0 auto;padding:0 16px}
+
+/* ---------- masthead ---------- */
+.mast{padding:40px 0 22px}
+.eyebrow{display:inline-flex;align-items:center;gap:7px;font-size:11.5px;font-weight:500;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--accent);
+  background:var(--accent-soft);padding:5px 11px;border-radius:99px}
+h1{font-size:clamp(1.9rem,4.4vw,2.7rem);font-weight:700;letter-spacing:-.028em;
+  margin:14px 0 8px;text-wrap:balance}
+.lede{color:var(--muted);margin:0;max-width:56ch;font-size:16px}
+.lede b{color:var(--ink-2);font-weight:600}
+
+/* ---------- toolbar ---------- */
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:30;background:var(--bg);
+  padding:12px 0 13px;margin-bottom:22px;border-bottom:1px solid var(--line)}
+.bar-in{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.search{position:relative;flex:1 1 260px;min-width:0}
+.search svg{position:absolute;left:13px;top:50%;transform:translateY(-50%);
+  width:16px;height:16px;color:var(--muted);pointer-events:none}
+#q{width:100%;font:inherit;font-size:14.5px;padding:10px 40px 10px 38px;color:var(--ink);
+  background:var(--surface);border:1px solid var(--line);border-radius:10px}
+#q::placeholder{color:var(--muted)}
+#q:focus-visible{outline:2px solid var(--accent);outline-offset:1px;border-color:transparent}
+kbd{position:absolute;right:10px;top:50%;transform:translateY(-50%);font:500 11px/1 JetBrains Mono,monospace;
+  color:var(--muted);border:1px solid var(--line);border-radius:5px;padding:4px 6px;background:var(--bg)}
+.seg{display:flex;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:3px;gap:2px}
+.seg button{font:inherit;font-size:12.5px;font-weight:500;padding:6px 11px;border:0;border-radius:7px;
+  background:transparent;color:var(--muted);cursor:pointer;white-space:nowrap}
+.seg button[aria-pressed=true]{background:var(--accent);color:var(--accent-ink)}
+.seg button:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.seg .lbl{font-size:11px;color:var(--muted);align-self:center;padding:0 8px 0 4px;
+  letter-spacing:.06em;text-transform:uppercase}
+.count{font-size:13px;color:var(--muted);margin-left:auto;font-variant-numeric:tabular-nums;white-space:nowrap}
+
+/* ---------- grid ---------- */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(224px,1fr));gap:14px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);
+  overflow:hidden;display:flex;flex-direction:column;cursor:pointer;
+  transition:border-color .15s,box-shadow .15s,transform .15s}
+.card:hover{border-color:var(--accent);box-shadow:var(--shadow);transform:translateY(-2px)}
+.card:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.tile{position:relative;height:118px;display:flex;align-items:center;justify-content:center;
+  padding:20px;background:var(--tile);border-bottom:1px solid var(--tile-line)}
+body[data-tile=transparent] .tile{
+  background-image:linear-gradient(45deg,#dfe5e2 25%,transparent 25%,transparent 75%,#dfe5e2 75%),
+    linear-gradient(45deg,#dfe5e2 25%,transparent 25%,transparent 75%,#dfe5e2 75%);
+  background-size:16px 16px;background-position:0 0,8px 8px;background-color:#fff}
+.tile img{max-width:100%;max-height:100%;object-fit:contain}
+.tile .empty{font-size:12.5px;color:var(--muted)}
+.meta{padding:11px 13px 12px;display:flex;flex-direction:column;gap:7px;flex:1}
+.nm{font-size:13.6px;font-weight:600;line-height:1.3;letter-spacing:-.008em}
+.tags{display:flex;gap:5px;align-items:center;flex-wrap:wrap;margin-top:auto}
+.tag{font:500 10.5px/1 JetBrains Mono,monospace;letter-spacing:.03em;padding:4px 6px;border-radius:5px;
+  background:var(--line-2);color:var(--muted)}
+.tag.n{background:var(--accent-soft);color:var(--accent)}
+.tag.w{background:var(--amber-soft);color:var(--amber)}
+.tag.rec{background:var(--accent);color:var(--accent-ink)}
+.strip{display:flex;gap:5px;padding:9px 11px 0;flex-wrap:wrap}
+.th{position:relative;width:38px;height:38px;padding:3px;flex:none;cursor:pointer;
+  border:1px solid var(--line);border-radius:8px;background:var(--tile)}
+body[data-tile=transparent] .th{background:#fff}
+.th img{width:100%;height:100%;object-fit:contain;display:block}
+.th[aria-pressed=true]{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+.th:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.th .star{position:absolute;top:-5px;right:-5px;width:14px;height:14px;border-radius:50%;
+  background:var(--accent);color:var(--accent-ink);font-size:9px;line-height:14px;text-align:center;
+  font-weight:700}
+.acts{display:flex;gap:6px;padding:0 13px 12px}
+.acts button{flex:1;font:inherit;font-size:12px;font-weight:500;padding:7px 4px;cursor:pointer;
+  border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink-2)}
+.acts button:hover{border-color:var(--accent);color:var(--accent)}
+.acts button:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+
+.none-found{padding:56px 0;text-align:center;color:var(--muted)}
+h2{font-size:.78rem;font-weight:600;text-transform:uppercase;letter-spacing:.11em;color:var(--muted);
+  margin:34px 0 14px;display:flex;align-items:center;gap:12px}
+h2::after{content:"";flex:1;height:1px;background:var(--line)}
+
+/* ---------- modal ---------- */
+dialog{border:0;padding:0;background:transparent;color:var(--ink);
+  max-width:none;max-height:none;width:100%;height:100%;margin:0;overflow:auto}
+.sheet,.sheet h3{color:var(--ink)}
+.sheet-h p,.fileline,.gl,.sz span{color:var(--muted)}
+dialog::backdrop{background:rgba(9,14,13,.62);backdrop-filter:blur(3px)}
+.sheet{background:var(--raised);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);
+  max-width:640px;margin:min(7vh,64px) auto;padding:22px}
+.sheet-h{display:flex;align-items:flex-start;gap:12px;margin-bottom:16px}
+.sheet-h h3{font-size:1.24rem;font-weight:700;margin:0 0 5px;letter-spacing:-.02em}
+.sheet-h p{margin:0;font-size:13px;color:var(--muted)}
+.x{margin-left:auto;width:32px;height:32px;flex:none;border:1px solid var(--line);border-radius:9px;
+  background:var(--surface);color:var(--muted);cursor:pointer;font-size:17px;line-height:1}
+.x:hover{color:var(--ink);border-color:var(--accent)}
+.stage{background:var(--tile);border:1px solid var(--tile-line);border-radius:12px;min-height:160px;
+  display:flex;align-items:center;justify-content:center;padding:26px;margin-bottom:14px}
+body[data-tile=transparent] .stage{
+  background-image:linear-gradient(45deg,#dfe5e2 25%,transparent 25%,transparent 75%,#dfe5e2 75%),
+    linear-gradient(45deg,#dfe5e2 25%,transparent 25%,transparent 75%,#dfe5e2 75%);
+  background-size:16px 16px;background-position:0 0,8px 8px;background-color:#fff}
+.stage img{max-width:100%;max-height:210px;object-fit:contain}
+.sizes{display:flex;gap:18px;align-items:flex-end;justify-content:center;padding:14px;
+  background:var(--tile);border:1px solid var(--tile-line);border-radius:12px;margin-bottom:16px}
+.sz{display:flex;flex-direction:column;align-items:center;gap:6px}
+.sz img{object-fit:contain}
+.sz span{font:500 10px/1 JetBrains Mono,monospace;color:var(--muted)}
+body[data-tile=dark] .sz span{color:#7d8b87}
+.gl{margin:0 0 7px;font:600 10.5px/1 Outfit,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.vars{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:15px}
+.var{display:flex;align-items:center;gap:8px;padding:6px 11px 6px 7px;border-radius:9px;cursor:pointer;
+  border:1px solid var(--line);background:var(--surface);font:inherit;font-size:12.5px;color:var(--ink-2)}
+.var[aria-pressed=true]{border-color:var(--accent);background:var(--accent-soft);color:var(--accent)}
+.var img{width:26px;height:26px;object-fit:contain;background:#fff;border-radius:5px;padding:2px}
+.row{display:flex;gap:9px;flex-wrap:wrap}
+.btn{font:inherit;font-size:13.5px;font-weight:500;padding:10px 15px;border-radius:10px;cursor:pointer;
+  border:1px solid var(--line);background:var(--surface);color:var(--ink-2)}
+.btn:hover{border-color:var(--accent);color:var(--accent)}
+.btn:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.btn.primary:hover{filter:brightness(1.08);color:var(--accent-ink)}
+.fileline{margin:15px 0 0;font:400 11.5px/1.6 JetBrains Mono,monospace;color:var(--muted);
+  word-break:break-all}
+
+/* ---------- toast ---------- */
+#toast{position:fixed;left:50%;bottom:calc(26px + env(safe-area-inset-bottom,0px));
+  transform:translate(-50%,14px);background:var(--ink);color:var(--bg);font-size:13.5px;font-weight:500;
+  padding:11px 18px;border-radius:99px;opacity:0;pointer-events:none;transition:.18s;z-index:60}
+#toast.on{opacity:1;transform:translate(-50%,0)}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+  color:var(--muted);font-size:13px}
+footer a{color:var(--accent)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+@media (max-width:560px){
+  .mast{padding:28px 0 16px}
+  .count{width:100%;margin:0;text-align:right}
+  .grid{grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:11px}
+  .tile{height:96px;padding:14px}
+  .sheet{margin:0;border-radius:0;min-height:100%;border:0}
+}
+</style>
+</head>
+<body data-tile="white">
+<div class="wrap">
+
+  <header class="mast">
+    <span class="eyebrow">Open logo set</span>
+    <h1>Bangladesh Bank Logos</h1>
+    <p class="lede"><p class="lede">Clean vector marks for <b>63 banks</b> operating in Bangladesh. Most have both
+      an icon and a with-text version &mdash; the one marked &#9733; is the best we hold. Click through
+      to copy the SVG or download it.</p>
+  </header>
+
+  <div class="bar">
+    <div class="bar-in">
+      <div class="search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+             stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.2-3.2"/></svg>
+        <input id="q" type="search" placeholder="Search by name or code…" autocomplete="off"
+               aria-label="Search banks">
+        <kbd>/</kbd>
+      </div>
+      <div class="seg" role="group" aria-label="Logo shape">
+        <span class="lbl">Show</span>
+        <button data-form="all" aria-pressed="true">All</button>
+        <button data-form="icon" aria-pressed="false">Icons</button>
+        <button data-form="wordmark" aria-pressed="false">With text</button>
+      </div>
+      <div class="seg" role="group" aria-label="Logo background">
+        <span class="lbl">Backdrop</span>
+        <button data-tile="white" aria-pressed="true">White</button>
+        <button data-tile="dark" aria-pressed="false">Dark</button>
+        <button data-tile="transparent" aria-pressed="false">Transparent</button>
+      </div>
+      <div class="seg" role="group" aria-label="Page theme">
+        <button id="theme" aria-pressed="false">Dark page</button>
+      </div>
+      <span class="count" id="count"></span>
+    </div>
+  </div>
+
+  <main id="out"></main>
+
+  <footer>
+    <p>Logos are the trademarks of their respective banks and are collected here for identification.
+      Missing or poor-quality mark? <a href="README.md">See the README</a> for how to contribute a better one.</p>
+  </footer>
+</div>
+
+<dialog id="dlg"><div class="sheet" id="sheet"></div></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script src="logos-data.js"></script>
+<script>
+const BANKS = window.BANKS || [], SRC = window.LOGO_SRC || {};
+const out = document.getElementById('out'), q = document.getElementById('q'),
+      countEl = document.getElementById('count'), dlg = document.getElementById('dlg'),
+      sheet = document.getElementById('sheet'), toastEl = document.getElementById('toast');
+
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fileOf = p => p.split('/').pop();
+
+let toastT;
+function toast(msg){
+  toastEl.textContent = msg; toastEl.classList.add('on');
+  clearTimeout(toastT); toastT = setTimeout(() => toastEl.classList.remove('on'), 1900);
+}
+
+/* One code path behind the press: both branches copy, the second is only the older API. */
+async function copyText(text, what){
+  try {
+    if (navigator.clipboard && window.isSecureContext) await navigator.clipboard.writeText(text);
+    else {
+      const ta = document.createElement('textarea');
+      ta.value = text; ta.setAttribute('readonly','');
+      ta.style.cssText = 'position:fixed;top:-1000px;opacity:0';
+      document.body.appendChild(ta); ta.select();
+      const ok = document.execCommand('copy'); ta.remove();
+      if (!ok) throw new Error('copy rejected');
+    }
+    toast(what + ' copied');
+  } catch { toast('Could not copy — use Download instead'); }
+}
+
+function download(path){
+  const a = document.createElement('a');
+  a.href = path; a.download = fileOf(path);
+  document.body.appendChild(a); a.click(); a.remove();
+}
+
+let FORM = 'all';
+const shown = b => FORM === 'all' ? b.variants : b.variants.filter(v => v.form === FORM);
+const pick  = b => { const vs = shown(b);
+  const bi = b.variants[b.best]; const k = vs.indexOf(bi);
+  return k >= 0 ? b.variants.indexOf(vs[k]) : (vs[0] ? b.variants.indexOf(vs[0]) : -1); };
+
+function tagsFor(b, vi){
+  const v = b.variants[vi], t = [];
+  if (b.code) t.push(`<span class="tag">${esc(b.code)}</span>`);
+  if (v){
+    if (vi === b.best) t.push(`<span class="tag rec">Best</span>`);
+    t.push(`<span class="tag">${esc(v.label)}</span>`);
+    if (v.quality === 'traced') t.push(`<span class="tag w">lower quality</span>`);
+  }
+  return t.join('');
+}
+
+function card(b, i){
+  const vs = shown(b), vi = pick(b), v = b.variants[vi];
+  const art = v
+    ? `<img src="${v.path}" alt="${esc(b.name)} logo" loading="lazy" decoding="async">`
+    : `<span class="empty">No logo yet</span>`;
+  const strip = vs.length
+    ? `<div class="strip">${vs.map(x => { const n = b.variants.indexOf(x);
+        return `<button class="th" data-th="${n}" aria-pressed="${n === vi}"
+          title="${esc(x.label)}${x.quality === 'traced' ? ' — lower quality' : ''}"
+          aria-label="${esc(x.label)}">${n === b.best ? '<span class="star">\u2605</span>' : ''}
+          <img src="${x.path}" alt=""></button>`; }).join('')}</div>`
+    : '';
+  return `<article class="card" tabindex="0" role="button" data-i="${i}" data-v="${vi}"
+      aria-label="${esc(b.name)} — open logo">
+    <div class="tile">${art}</div>
+    ${strip}
+    <div class="meta"><span class="nm">${esc(b.name)}</span>
+      <span class="tags">${tagsFor(b, vi)}</span></div>
+    ${v ? `<div class="acts">
+      <button data-act="copy" data-p="${v.path}">Copy SVG</button>
+      <button data-act="dl" data-p="${v.path}">Download</button></div>` : ''}
+  </article>`;
+}
+
+/* Swap a card's shown logo in place — a full re-render would scroll-jump the grid. */
+function selectIn(card, vi){
+  const b = BANKS[+card.dataset.i], v = b.variants[vi];
+  card.dataset.v = vi;
+  card.querySelector('.tile img').src = v.path;
+  card.querySelectorAll('.th').forEach(t =>
+    t.setAttribute('aria-pressed', String(+t.dataset.th === vi)));
+  card.querySelector('.tags').innerHTML = tagsFor(b, vi);
+  card.querySelectorAll('.acts [data-act]').forEach(btn => btn.dataset.p = v.path);
+}
+
+function render(){
+  const term = q.value.trim().toLowerCase();
+  const hit = b => (!term || b.name.toLowerCase().includes(term) ||
+                    (b.code || '').toLowerCase().includes(term)) &&
+                   (FORM === 'all' || shown(b).length);
+  const bd = [], intl = [];
+  BANKS.forEach((b, i) => { if (hit(b)) (b.group === 'bd' ? bd : intl).push(i); });
+
+  countEl.textContent = `${bd.length + intl.length} of ${BANKS.length} banks`;
+  if (!bd.length && !intl.length){
+    out.innerHTML = `<p class="none-found">Nothing matches \u201c${esc(q.value)}\u201d.</p>`;
+    return;
+  }
+  const sec = (title, idx) => idx.length
+    ? `<h2>${title}</h2><div class="grid">${idx.map(i => card(BANKS[i], i)).join('')}</div>` : '';
+  out.innerHTML = sec('Banks in Bangladesh', bd) + sec('Foreign &amp; central banks', intl);
+}
+
+function openBank(i, vi){
+  const b = BANKS[i];
+  if (vi == null) vi = pick(b);
+  const v = b.variants[vi];
+  if (!v){
+    sheet.innerHTML = `<div class="sheet-h"><div><h3>${esc(b.name)}</h3>
+      <p>No logo has been collected for this bank yet.</p></div>
+      <button class="x" data-close aria-label="Close">&times;</button></div>`;
+    dlg.showModal(); return;
+  }
+  const group = (title, form) => {
+    const vs = b.variants.map((x, n) => [x, n]).filter(([x]) => x.form === form);
+    if (!vs.length) return '';
+    return `<p class="gl">${title}</p><div class="vars">${vs.map(([x, n]) =>
+      `<button class="var" data-v="${n}" aria-pressed="${n === vi}">
+         <img src="${x.path}" alt="">${esc(x.label)}${n === b.best ? ' \u2605' : ''}</button>`).join('')}</div>`;
+  };
+  sheet.innerHTML = `
+    <div class="sheet-h">
+      <div><h3>${esc(b.name)}</h3>
+        <p>${b.code ? esc(b.code) + ' \u00b7 ' : ''}${esc(v.label)} \u00b7 ${v.kb} KB \u00b7 SVG${
+          v.quality === 'traced' ? ' \u00b7 traced from an image, lower quality' : ''}${
+          vi === b.best ? ' \u00b7 \u2605 best available' : ''}</p></div>
+      <button class="x" data-close aria-label="Close">&times;</button>
+    </div>
+    <div class="stage"><img src="${v.path}" alt="${esc(b.name)} logo"></div>
+    <div class="sizes">
+      <div class="sz"><img src="${v.path}" alt="" style="width:24px;height:24px"><span>24</span></div>
+      <div class="sz"><img src="${v.path}" alt="" style="width:40px;height:40px"><span>40</span></div>
+      <div class="sz"><img src="${v.path}" alt="" style="width:64px;height:64px"><span>64</span></div>
+    </div>
+    ${group('Icon', 'icon')}${group('With text', 'wordmark')}
+    <div class="row">
+      <button class="btn primary" data-act="copy" data-p="${v.path}">Copy SVG</button>
+      <button class="btn" data-act="datauri" data-p="${v.path}">Copy data URI</button>
+      <button class="btn" data-act="dl" data-p="${v.path}">Download</button>
+    </div>
+    <p class="fileline">${esc(v.path)}</p>`;
+  sheet.dataset.i = i; sheet.dataset.v = vi;
+  if (!dlg.open) dlg.showModal();
+}
+
+function act(el){
+  const a = el.dataset.act, p = el.dataset.p;
+  if (a === 'dl'){ download(p); return; }
+  const svg = SRC[p];
+  if (!svg){ toast('Source unavailable — use Download'); return; }
+  if (a === 'copy') copyText(svg, 'SVG');
+  else if (a === 'datauri') copyText('data:image/svg+xml;utf8,' + encodeURIComponent(svg), 'Data URI');
+}
+
+out.addEventListener('click', e => {
+  const th = e.target.closest('[data-th]');
+  if (th){ e.stopPropagation(); selectIn(th.closest('.card'), +th.dataset.th); return; }
+  const btn = e.target.closest('[data-act]');
+  if (btn){ e.stopPropagation(); act(btn); return; }
+  const c = e.target.closest('.card');
+  if (c) openBank(+c.dataset.i, +c.dataset.v);
+});
+out.addEventListener('keydown', e => {
+  if (e.key !== 'Enter' && e.key !== ' ') return;
+  const c = e.target.closest('.card');
+  if (c && e.target === c){ e.preventDefault(); openBank(+c.dataset.i, +c.dataset.v); }
+});
+sheet.addEventListener('click', e => {
+  if (e.target.closest('[data-close]')){ dlg.close(); return; }
+  const btn = e.target.closest('[data-act]');
+  if (btn){ act(btn); return; }
+  const v = e.target.closest('[data-v]');
+  if (v) openBank(+sheet.dataset.i, +v.dataset.v);
+});
+dlg.addEventListener('click', e => { if (e.target === dlg) dlg.close(); });
+
+document.querySelectorAll('.seg [data-tile]').forEach(b => b.onclick = () => {
+  document.querySelectorAll('.seg [data-tile]').forEach(o =>
+    o.setAttribute('aria-pressed', String(o === b)));
+  document.body.dataset.tile = b.dataset.tile;
+});
+document.querySelectorAll('.seg [data-form]').forEach(b => b.onclick = () => {
+  document.querySelectorAll('.seg [data-form]').forEach(o =>
+    o.setAttribute('aria-pressed', String(o === b)));
+  FORM = b.dataset.form; render();
+});
+document.getElementById('theme').onclick = function(){
+  const on = this.getAttribute('aria-pressed') === 'true';
+  this.setAttribute('aria-pressed', String(!on));
+  document.documentElement.setAttribute('data-theme', !on ? 'dark' : 'light');
+};
+
+q.addEventListener('input', render);
+addEventListener('keydown', e => {
+  if (e.key === '/' && document.activeElement !== q){ e.preventDefault(); q.focus(); q.select(); }
+  if (e.key === 'Escape' && document.activeElement === q && q.value){ q.value = ''; render(); }
+});
+
+render();
+</script>
+</body>
+</html>

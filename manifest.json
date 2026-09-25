@@ -1,0 +1,1426 @@
+{
+  "banks": [
+    {
+      "display": "AB Bank PLC",
+      "bank_name": "AB BANK LTD.",
+      "originals": [
+        {
+          "path": "original/ab-bank-plc-1.svg",
+          "from": "logo new/Logo_of_AB_Bank.svg",
+          "kb": 8,
+          "kind": "vector"
+        },
+        {
+          "path": "original/ab-bank-plc-icon.svg",
+          "from": "extracted from ab-bank-plc-1.svg",
+          "kb": 8,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/ab-bank-plc.svg",
+      "full": "full/ab-bank-plc.svg",
+      "live": null,
+      "icon_bytes": 10030,
+      "full_bytes": 15141,
+      "note": "",
+      "icon_src": "traced 30\u00d732",
+      "full_src": "traced 221\u00d759"
+    },
+    {
+      "display": "Agrani Bank PLC",
+      "bank_name": "AGRANI BANK LTD.",
+      "originals": [
+        {
+          "path": "original/agrani-bank-plc-1.svg",
+          "from": "Agrani_Bank_Limited.svg",
+          "kb": 33,
+          "kind": "vector"
+        },
+        {
+          "path": "original/agrani-bank-plc-2.svg",
+          "from": "logo new/agrani-bank-seeklogo.svg",
+          "kb": 192,
+          "kind": "vector"
+        },
+        {
+          "path": "original/agrani-bank-plc-3.svg",
+          "from": "logo new/agrani-bank-limited-seeklogo.svg",
+          "kb": 95,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/agrani-bank-plc.svg",
+      "full": "full/agrani-bank-plc.svg",
+      "live": "current-live/agrani-bank-plc.jpg",
+      "icon_bytes": 14205,
+      "full_bytes": 41149,
+      "note": "",
+      "icon_src": "traced 32\u00d728",
+      "full_src": "traced 500\u00d7105"
+    },
+    {
+      "display": "Al-Arafah Islami Bank PLC",
+      "bank_name": "AL-ARAFAH ISLAMI BANK LTD.",
+      "originals": [
+        {
+          "path": "original/al-arafah-islami-bank-plc-1.svg",
+          "from": "logo new/al-arafah-islami-bank-plc-seeklogo-3.svg",
+          "kb": 50,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/al-arafah-islami-bank-plc.svg",
+      "full": "full/al-arafah-islami-bank-plc.svg",
+      "live": "current-live/al-arafah-islami-bank-plc.jpg",
+      "icon_bytes": 9293,
+      "full_bytes": 18461,
+      "note": "Icon best-effort: only a 16x16 source found and the bank's website (aibl.com.bd) was unreachable; colors are approximate.",
+      "icon_src": "traced 16\u00d716",
+      "full_src": "traced 122\u00d795"
+    },
+    {
+      "display": "Bangladesh Commerce Bank Limited",
+      "bank_name": "BANGLADESH COMMERCE BANK LTD.",
+      "originals": [
+        {
+          "path": "original/bangladesh-commerce-bank-limited-1.svg",
+          "from": "logo new/bangladesh-commerce-bank-limited-seeklogo.svg",
+          "kb": 105,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/bangladesh-commerce-bank-limited.svg",
+      "full": "full/bangladesh-commerce-bank-limited.svg",
+      "live": "current-live/bangladesh-commerce-bank-limited.jpg",
+      "icon_bytes": 17345,
+      "full_bytes": 231037,
+      "note": "",
+      "icon_src": "traced 98\u00d7120",
+      "full_src": "traced 1277\u00d7182"
+    },
+    {
+      "display": "Bangladesh Krishi Bank",
+      "bank_name": "BANGLADESH KRISHI BANK",
+      "originals": [
+        {
+          "path": "original/bangladesh-krishi-bank-1.svg",
+          "from": "Bangladesh_Krishi_Bank.svg",
+          "kb": 67,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/bangladesh-krishi-bank.svg",
+      "full": "full/bangladesh-krishi-bank.svg",
+      "live": "current-live/bangladesh-krishi-bank.jpg",
+      "icon_bytes": 28099,
+      "full_bytes": 34840,
+      "note": "",
+      "icon_src": "traced 67\u00d768",
+      "full_src": "traced 241\u00d772"
+    },
+    {
+      "display": "Bank Al-Falah Limited",
+      "bank_name": "BANK AL-FALAH LTD",
+      "originals": [
+        {
+          "path": "original/bank-al-falah-limited-1.svg",
+          "from": "logo new/bank-alfalah-seeklogo.svg",
+          "kb": 43,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/bank-al-falah-limited.svg",
+      "full": "full/bank-al-falah-limited.svg",
+      "live": "current-live/bank-al-falah-limited.jpg",
+      "icon_bytes": 10155,
+      "full_bytes": 19688,
+      "note": "Icon replaced (the original 16px icon was pixelated); cropped from a higher-resolution logo.",
+      "icon_src": "traced 220\u00d7216",
+      "full_src": "traced 500\u00d7110"
+    },
+    {
+      "display": "Bank Asia PLC.",
+      "bank_name": "BANK ASIA LTD.",
+      "originals": [
+        {
+          "path": "original/bank-asia-plc-1.svg",
+          "from": "logo new/Logo_of_Bank_Asia.svg",
+          "kb": 6,
+          "kind": "vector"
+        },
+        {
+          "path": "original/bank-asia-plc-2.svg",
+          "from": "logo new/Logo_of_Bank_Asia_-_bn.svg",
+          "kb": 12,
+          "kind": "vector"
+        },
+        {
+          "path": "original/bank-asia-plc-3.svg",
+          "from": "logo new/Logo_of_Bank_Asia_(Bangladesh).svg",
+          "kb": 12,
+          "kind": "vector"
+        },
+        {
+          "path": "original/bank-asia-plc-icon.svg",
+          "from": "extracted from bank-asia-plc-1.svg",
+          "kb": 6,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/bank-asia-plc.svg",
+      "full": "full/bank-asia-plc.svg",
+      "live": "current-live/bank-asia-plc.jpg",
+      "icon_bytes": 8770,
+      "full_bytes": 12716,
+      "note": "",
+      "icon_src": "traced 48\u00d748",
+      "full_src": "traced 180\u00d739"
+    },
+    {
+      "display": "BASIC Bank Limited",
+      "bank_name": "BASIC BANK LTD.",
+      "originals": [
+        {
+          "path": "original/basic-bank-limited-1.svg",
+          "from": "logo new/BASIC_Bank_Logo.svg",
+          "kb": 4,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/basic-bank-limited.svg",
+      "full": "full/basic-bank-limited.svg",
+      "live": "current-live/basic-bank-limited.jpg",
+      "icon_bytes": 71074,
+      "full_bytes": 88141,
+      "note": "",
+      "icon_src": "traced 180\u00d7180",
+      "full_src": "traced 314\u00d757"
+    },
+    {
+      "display": "Bengal Commercial Bank PLC.",
+      "bank_name": "BENGAL COMMERCIAL BANK LIMITED",
+      "originals": [
+        {
+          "path": "original/bengal-commercial-bank-plc-1.svg",
+          "from": "logo new/Logo_of_Bengal_Commercial_Bank.svg",
+          "kb": 43,
+          "kind": "vector"
+        },
+        {
+          "path": "original/bengal-commercial-bank-plc-icon.svg",
+          "from": "extracted from bengal-commercial-bank-plc-1.svg",
+          "kb": 43,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/bengal-commercial-bank-plc.svg",
+      "full": "full/bengal-commercial-bank-plc.svg",
+      "live": "current-live/bengal-commercial-bank-plc.jpg",
+      "icon_bytes": 26080,
+      "full_bytes": 37838,
+      "note": "",
+      "icon_src": "traced 298\u00d7300",
+      "full_src": "traced 500\u00d7168"
+    },
+    {
+      "display": "BRAC Bank PLC",
+      "bank_name": "BRAC BANK LTD.",
+      "originals": [
+        {
+          "path": "original/brac-bank-plc-1.svg",
+          "from": "logo new/BRAC.svg",
+          "kb": 16,
+          "kind": "vector"
+        },
+        {
+          "path": "original/brac-bank-plc-icon.svg",
+          "from": "extracted from brac-bank-plc-1.svg",
+          "kb": 16,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/brac-bank-plc.svg",
+      "full": "full/brac-bank-plc.svg",
+      "live": "current-live/brac-bank-plc.jpg",
+      "icon_bytes": 13429,
+      "full_bytes": 24777,
+      "note": "",
+      "icon_src": "traced 48\u00d748",
+      "full_src": "vector 358\u00d730"
+    },
+    {
+      "display": "Citizens Bank PLC",
+      "bank_name": "CITIZENS BANK PLC",
+      "originals": [
+        {
+          "path": "original/citizens-bank-plc-1.svg",
+          "from": "logo new/logo-citizens__horz-green.svg",
+          "kb": 6,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/citizens-bank-plc.svg",
+      "full": "full/citizens-bank-plc.svg",
+      "live": "current-live/citizens-bank-plc.jpg",
+      "icon_bytes": 14135,
+      "full_bytes": 33602,
+      "note": "",
+      "icon_src": "traced 300\u00d7210",
+      "full_src": "traced 500\u00d7217"
+    },
+    {
+      "display": "City Bank PLC",
+      "bank_name": "THE CITY BANK LTD.",
+      "originals": [
+        {
+          "path": "original/city-bank-plc-1.svg",
+          "from": "logo new/city-bank-seeklogo.svg",
+          "kb": 84,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/city-bank-plc.svg",
+      "full": "full/city-bank-plc.svg",
+      "live": null,
+      "icon_bytes": 20273,
+      "full_bytes": 21579,
+      "note": "",
+      "icon_src": "traced 256\u00d7256",
+      "full_src": "traced 500\u00d7337"
+    },
+    {
+      "display": "Community Bank Bangladesh PLC.",
+      "bank_name": "COMMUNITY BANK BANGLADESH LTD.",
+      "originals": [
+        {
+          "path": "original/community-bank-bangladesh-plc-1.svg",
+          "from": "logo new/community-bank-seeklogo.svg",
+          "kb": 96,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/community-bank-bangladesh-plc.svg",
+      "full": "full/community-bank-bangladesh-plc.svg",
+      "live": "current-live/community-bank-bangladesh-plc.png",
+      "icon_bytes": 9131,
+      "full_bytes": 15495,
+      "note": "",
+      "icon_src": "traced 192\u00d7192",
+      "full_src": "traced 251\u00d787"
+    },
+    {
+      "display": "Dhaka Bank PLC",
+      "bank_name": "DHAKA BANK LTD.",
+      "originals": [
+        {
+          "path": "original/dhaka-bank-plc-1.svg",
+          "from": "logo new/Logo_of_Dhaka_Bank.svg",
+          "kb": 9,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/dhaka-bank-plc.svg",
+      "full": "full/dhaka-bank-plc.svg",
+      "live": "current-live/dhaka-bank-plc.webp",
+      "icon_bytes": 41343,
+      "full_bytes": 13583,
+      "note": "",
+      "icon_src": "traced 300\u00d7300",
+      "full_src": "traced 184\u00d754"
+    },
+    {
+      "display": "Dutch-Bangla Bank PLC",
+      "bank_name": "DUTCH-BANGLA BANK LTD",
+      "originals": [
+        {
+          "path": "original/dutch-bangla-bank-plc-1.svg",
+          "from": "logo new/Dutch-bangla-bank-ltd.svg",
+          "kb": 4,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/dutch-bangla-bank-plc.svg",
+      "full": "full/dutch-bangla-bank-plc.svg",
+      "live": "current-live/dutch-bangla-bank-plc.jpg",
+      "icon_bytes": 12256,
+      "full_bytes": 25813,
+      "note": "Full logo was missing; icon replaced with a cleaner vector mark (the original 16px icon was very low resolution).",
+      "icon_src": "vector",
+      "full_src": "traced 224\u00d743"
+    },
+    {
+      "display": "Eastern Bank PLC",
+      "bank_name": "EASTERN BANK LTD.",
+      "originals": [
+        {
+          "path": "original/eastern-bank-plc-1.svg",
+          "from": "logo new/EBL_Registered_Corporate_Logo_horizontal.svg",
+          "kb": 10,
+          "kind": "vector"
+        },
+        {
+          "path": "original/eastern-bank-plc-2.svg",
+          "from": "logo new/Eastern_Bank_PLC-_idN8BD0Tqn_1.svg",
+          "kb": 48,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/eastern-bank-plc.svg",
+      "full": "full/eastern-bank-plc.svg",
+      "live": "current-live/eastern-bank-plc.webp",
+      "icon_bytes": 11068,
+      "full_bytes": 19829,
+      "note": "",
+      "icon_src": "traced 32\u00d723",
+      "full_src": "traced 264\u00d748"
+    },
+    {
+      "display": "Export Import Bank of Bangladesh PLC",
+      "bank_name": "EXIM BANK LTD.",
+      "originals": [
+        {
+          "path": "original/export-import-bank-of-bangladesh-plc-1.svg",
+          "from": "logo new/Logo_of_Exim_Bank_(Bangladesh).svg",
+          "kb": 4,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/export-import-bank-of-bangladesh-plc.svg",
+      "full": "full/export-import-bank-of-bangladesh-plc.svg",
+      "live": "current-live/export-import-bank-of-bangladesh-plc.png",
+      "icon_bytes": 10422,
+      "full_bytes": 12053,
+      "note": "No separate icon/mark exists for EXIM Bank; icon is a cropped square of the 'EXIM' wordmark.",
+      "icon_src": "traced 127\u00d745",
+      "full_src": "traced 127\u00d774"
+    },
+    {
+      "display": "First Security Islami Bank PLC",
+      "bank_name": "FIRST SECURITY ISLAMI BANK LTD.",
+      "originals": [
+        {
+          "path": "original/first-security-islami-bank-plc-1.svg",
+          "from": "logo new/Logo_of_First_Security_Islami_Bank.svg",
+          "kb": 10,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/first-security-islami-bank-plc.svg",
+      "full": "full/first-security-islami-bank-plc.svg",
+      "live": "current-live/first-security-islami-bank-plc.png",
+      "icon_bytes": 25555,
+      "full_bytes": 99569,
+      "note": "Full logo replaced (original file was corrupted/not an image); icon derived by cropping the mark from the new full logo.",
+      "icon_src": "traced 145\u00d7205",
+      "full_src": "traced 609\u00d7205"
+    },
+    {
+      "display": "Global Islami Bank PLC",
+      "bank_name": "GLOBAL ISLAMI BANK LTD.",
+      "originals": [
+        {
+          "path": "original/global-islami-bank-plc-1.svg",
+          "from": "logo new/Logo_of_Global_Islami_Bank.svg",
+          "kb": 133,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/global-islami-bank-plc.svg",
+      "full": "full/global-islami-bank-plc.svg",
+      "live": "current-live/global-islami-bank-plc.png",
+      "icon_bytes": 9908,
+      "full_bytes": 49249,
+      "note": "",
+      "icon_src": "traced 32\u00d732",
+      "full_src": "traced 500\u00d784"
+    },
+    {
+      "display": "ICB Islamic Bank Ltd.",
+      "bank_name": "ICB ISLAMIC BANK LTD",
+      "originals": [
+        {
+          "path": "original/icb-islamic-bank-ltd-1.svg",
+          "from": "logo new/ICB_Islamic_Bank_Logo.svg",
+          "kb": 2,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/icb-islamic-bank-ltd.svg",
+      "full": "full/icb-islamic-bank-ltd.svg",
+      "live": "current-live/icb-islamic-bank-ltd.png",
+      "icon_bytes": 13455,
+      "full_bytes": 24293,
+      "note": "",
+      "icon_src": "traced 270\u00d7271",
+      "full_src": "traced 300\u00d7128"
+    },
+    {
+      "display": "IFIC Bank PLC",
+      "bank_name": "IFIC BANK LTD.",
+      "originals": [
+        {
+          "path": "original/ific-bank-plc-1.svg",
+          "from": "logo new/Logo_of_IFIC_Bank.svg",
+          "kb": 7,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/ific-bank-plc.svg",
+      "full": "full/ific-bank-plc.svg",
+      "live": "current-live/ific-bank-plc.png",
+      "icon_bytes": 11708,
+      "full_bytes": 13458,
+      "note": "",
+      "icon_src": "traced 55\u00d753",
+      "full_src": "traced 143\u00d750"
+    },
+    {
+      "display": "Islami Bank Bangladesh PLC",
+      "bank_name": "ISLAMI BANK BANGLDESH LTD.",
+      "originals": [
+        {
+          "path": "original/islami-bank-bangladesh-plc-1.svg",
+          "from": "logo new/islami-bank-bangladesh-plc-seeklogo.svg",
+          "kb": 141,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/islami-bank-bangladesh-plc.svg",
+      "full": "full/islami-bank-bangladesh-plc.svg",
+      "live": "current-live/islami-bank-bangladesh-plc.png",
+      "icon_bytes": 23500,
+      "full_bytes": 19524,
+      "note": "",
+      "icon_src": "traced 60\u00d758",
+      "full_src": "traced 300\u00d791"
+    },
+    {
+      "display": "Jamuna Bank PLC",
+      "bank_name": "JAMUNA BANK LTD.",
+      "originals": [
+        {
+          "path": "original/jamuna-bank-plc-1.svg",
+          "from": "logo new/Logo_of_Jamuna_Bank.svg",
+          "kb": 14,
+          "kind": "vector"
+        },
+        {
+          "path": "original/jamuna-bank-plc-icon.svg",
+          "from": "extracted from jamuna-bank-plc-1.svg",
+          "kb": 14,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/jamuna-bank-plc.svg",
+      "full": "full/jamuna-bank-plc.svg",
+      "live": "current-live/jamuna-bank-plc.png",
+      "icon_bytes": 12793,
+      "full_bytes": 23489,
+      "note": "",
+      "icon_src": "traced 192\u00d7192",
+      "full_src": "traced 414\u00d7500"
+    },
+    {
+      "display": "Janata Bank PLC",
+      "bank_name": "JANATA BANK LTD.",
+      "originals": [
+        {
+          "path": "original/janata-bank-plc-1.svg",
+          "from": "logo new/Janata_Bank_Logo.svg",
+          "kb": 3,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/janata-bank-plc.svg",
+      "full": "full/janata-bank-plc.svg",
+      "live": null,
+      "icon_bytes": 22851,
+      "full_bytes": 22851,
+      "note": "Full logo and icon were both missing; sourced Janata Bank's official 'JB' seal mark for both.",
+      "icon_src": "vector 350\u00d7275.28836",
+      "full_src": "vector 350\u00d7275.28836"
+    },
+    {
+      "display": "Meghna Bank PLC",
+      "bank_name": "MEGHNA BANK LIMITED",
+      "originals": [
+        {
+          "path": "original/meghna-bank-plc-1.svg",
+          "from": "logo new/meghna-bank-seeklogo.svg",
+          "kb": 58,
+          "kind": "vector"
+        },
+        {
+          "path": "original/meghna-bank-plc-2.svg",
+          "from": "logo new/Logo_of_Meghna_Bank_-_bn.svg",
+          "kb": 37,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/meghna-bank-plc.svg",
+      "full": "full/meghna-bank-plc.svg",
+      "live": "current-live/meghna-bank-plc.png",
+      "icon_bytes": 9999,
+      "full_bytes": 17457,
+      "note": "",
+      "icon_src": "traced 27\u00d725",
+      "full_src": "traced 500\u00d7125"
+    },
+    {
+      "display": "Mercantile Bank PLC",
+      "bank_name": "MERCANTILE BANK LTD.",
+      "originals": [
+        {
+          "path": "original/mercantile-bank-plc-1.svg",
+          "from": "logo new/mercantile-bank-ltd-seeklogo.svg",
+          "kb": 85,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/mercantile-bank-plc.svg",
+      "full": "full/mercantile-bank-plc.svg",
+      "live": null,
+      "icon_bytes": 8942,
+      "full_bytes": 66696,
+      "note": "",
+      "icon_src": "traced 16\u00d716",
+      "full_src": "traced 298\u00d7110"
+    },
+    {
+      "display": "Midland Bank Limited",
+      "bank_name": "MIDLAND BANK LIMITED",
+      "originals": [
+        {
+          "path": "original/midland-bank-limited-1.svg",
+          "from": "logo new/Logo_of_Midland_Bank.svg",
+          "kb": 49,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/midland-bank-limited.svg",
+      "full": "full/midland-bank-limited.svg",
+      "live": null,
+      "icon_bytes": 8933,
+      "full_bytes": 35812,
+      "note": "Full logo is Midland Bank's 'Green Pin' product sub-brand, not the main corporate logo; no separate corporate logo file was available/reachable.",
+      "icon_src": "traced 16\u00d716",
+      "full_src": "traced 500\u00d7283"
+    },
+    {
+      "display": "Modhumoti Bank PLC",
+      "bank_name": "MODHUMOTI BANK LIMITED",
+      "originals": [
+        {
+          "path": "original/modhumoti-bank-plc-1.svg",
+          "from": "logo new/Logo_of_Modhumoti_Bank-en.svg",
+          "kb": 129,
+          "kind": "vector"
+        },
+        {
+          "path": "original/modhumoti-bank-plc-2.svg",
+          "from": "logo new/Logo_of_Modhumoti_Bank-bn.svg",
+          "kb": 153,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/modhumoti-bank-plc.svg",
+      "full": "full/modhumoti-bank-plc.svg",
+      "live": null,
+      "icon_bytes": 9027,
+      "full_bytes": 26014,
+      "note": "",
+      "icon_src": "traced 16\u00d716",
+      "full_src": "traced 250\u00d796"
+    },
+    {
+      "display": "Mutual Trust Bank PLC",
+      "bank_name": "MUTUAL TRUST BANK LTD.",
+      "originals": [
+        {
+          "path": "original/mutual-trust-bank-plc-1.svg",
+          "from": "logo new/Mutual_Trust_Bank_PLC_Wordmark.svg",
+          "kb": 143,
+          "kind": "vector"
+        },
+        {
+          "path": "original/mutual-trust-bank-plc-icon.svg",
+          "from": "extracted from mutual-trust-bank-plc-1.svg",
+          "kb": 143,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/mutual-trust-bank-plc.svg",
+      "full": "full/mutual-trust-bank-plc.svg",
+      "live": null,
+      "icon_bytes": 34076,
+      "full_bytes": 30040,
+      "note": "",
+      "icon_src": "traced 192\u00d7192",
+      "full_src": "traced 335\u00d759"
+    },
+    {
+      "display": "National Bank Limited",
+      "bank_name": "NATIONAL BANK LTD.",
+      "originals": [
+        {
+          "path": "original/national-bank-limited-1.svg",
+          "from": "logo new/national-bank-limited-nbl-seeklogo_en.svg",
+          "kb": 51,
+          "kind": "vector"
+        },
+        {
+          "path": "original/national-bank-limited-2.svg",
+          "from": "logo new/national-bank-limited-nbl-seeklogo_bn.svg",
+          "kb": 49,
+          "kind": "vector"
+        },
+        {
+          "path": "original/national-bank-limited-3.svg",
+          "from": "logo new/national-bank-limited-nbl-seeklogo_icon.svg",
+          "kb": 4,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/national-bank-limited.svg",
+      "full": "full/national-bank-limited.svg",
+      "live": null,
+      "icon_bytes": 11150,
+      "full_bytes": 21331,
+      "note": "",
+      "icon_src": "traced 48\u00d748",
+      "full_src": "traced 300\u00d764"
+    },
+    {
+      "display": "National Credit & Commerce Bank PLC",
+      "bank_name": "NATIONAL CREDIT & COMMERCE BANK LTD.",
+      "originals": [
+        {
+          "path": "original/national-credit-commerce-bank-plc-1.svg",
+          "from": "logo new/NCC_logo.svg",
+          "kb": 112,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/national-credit-commerce-bank-plc.svg",
+      "full": "full/national-credit-commerce-bank-plc.svg",
+      "live": null,
+      "icon_bytes": 16729,
+      "full_bytes": 21704,
+      "note": "Full logo replaced (original file was an unrelated MoneyGram-style logo); icon derived by cropping the mark from the new full logo.",
+      "icon_src": "traced 72\u00d776",
+      "full_src": "traced 257\u00d776"
+    },
+    {
+      "display": "NRB Bank PLC",
+      "bank_name": "NRB BANK LIMITED",
+      "originals": [
+        {
+          "path": "original/nrb-bank-plc-1.svg",
+          "from": "logo new/Logo_of_NRB_Bank.svg",
+          "kb": 19,
+          "kind": "vector"
+        },
+        {
+          "path": "original/nrb-bank-plc-icon.svg",
+          "from": "extracted from nrb-bank-plc-1.svg",
+          "kb": 19,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/nrb-bank-plc.svg",
+      "full": "full/nrb-bank-plc.svg",
+      "live": null,
+      "icon_bytes": 9736,
+      "full_bytes": 28994,
+      "note": "",
+      "icon_src": "traced 20\u00d720",
+      "full_src": "traced 298\u00d760"
+    },
+    {
+      "display": "NRBC Bank PLC",
+      "bank_name": "NRB COMMERCIAL BANK LTD.",
+      "originals": [
+        {
+          "path": "original/nrbc-bank-plc-1.svg",
+          "from": "logo new/NRBC_Bank_logo.svg",
+          "kb": 6,
+          "kind": "vector"
+        },
+        {
+          "path": "original/nrbc-bank-plc-icon.svg",
+          "from": "extracted from nrbc-bank-plc-1.svg",
+          "kb": 6,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/nrbc-bank-plc.svg",
+      "full": "full/nrbc-bank-plc.svg",
+      "live": null,
+      "icon_bytes": 9707,
+      "full_bytes": 27689,
+      "note": "Icon replaced, cropped from the bank's full logo (the original icon file was an unrelated Apple logo).",
+      "icon_src": "traced 59\u00d760",
+      "full_src": "traced 500\u00d7122"
+    },
+    {
+      "display": "One Bank PLC",
+      "bank_name": "ONE BANK LTD.",
+      "originals": [
+        {
+          "path": "original/one-bank-plc-1.svg",
+          "from": "logo new/Logo_of_ONE_Bank-en.svg",
+          "kb": 11,
+          "kind": "vector"
+        },
+        {
+          "path": "original/one-bank-plc-2.svg",
+          "from": "logo new/Logo_of_ONE_Bank-bn.svg",
+          "kb": 22,
+          "kind": "vector"
+        },
+        {
+          "path": "original/one-bank-plc-icon.svg",
+          "from": "extracted from one-bank-plc-1.svg",
+          "kb": 11,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/one-bank-plc.svg",
+      "full": "full/one-bank-plc.svg",
+      "live": null,
+      "icon_bytes": 8870,
+      "full_bytes": 14853,
+      "note": "",
+      "icon_src": "traced 16\u00d716",
+      "full_src": "traced 253\u00d778"
+    },
+    {
+      "display": "Padma Bank PLC",
+      "bank_name": "PADMA BANK LIMITED",
+      "originals": [
+        {
+          "path": "original/padma-bank-plc-1.svg",
+          "from": "logo new/Logo_of_Padma_Bank.svg",
+          "kb": 21,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/padma-bank-plc.svg",
+      "full": "full/padma-bank-plc.svg",
+      "live": null,
+      "icon_bytes": 24616,
+      "full_bytes": 17730,
+      "note": "",
+      "icon_src": "traced 180\u00d7180",
+      "full_src": "traced 103\u00d771"
+    },
+    {
+      "display": "Prime Bank PLC",
+      "bank_name": "PRIME BANK LTD.",
+      "originals": [
+        {
+          "path": "original/prime-bank-plc-1.svg",
+          "from": "logo new/Logo_of_Prime_Bank.svg",
+          "kb": 10,
+          "kind": "vector"
+        },
+        {
+          "path": "original/prime-bank-plc-icon.svg",
+          "from": "extracted from prime-bank-plc-1.svg",
+          "kb": 10,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/prime-bank-plc.svg",
+      "full": "full/prime-bank-plc.svg",
+      "live": null,
+      "icon_bytes": 9412,
+      "full_bytes": 22842,
+      "note": "",
+      "icon_src": "traced 20\u00d720",
+      "full_src": "traced 500\u00d793"
+    },
+    {
+      "display": "Probashi Kollyan Bank",
+      "bank_name": null,
+      "originals": [],
+      "icon": null,
+      "full": null,
+      "live": null,
+      "icon_bytes": 0,
+      "full_bytes": 0,
+      "note": "Not in any logo pack \u2014 no mark held for this bank.",
+      "icon_src": "",
+      "full_src": ""
+    },
+    {
+      "display": "Pubali Bank PLC",
+      "bank_name": "PUBALI BANK LTD.",
+      "originals": [
+        {
+          "path": "original/pubali-bank-plc-1.svg",
+          "from": "logo new/pubali-bank-seeklogo.svg",
+          "kb": 111,
+          "kind": "vector"
+        },
+        {
+          "path": "original/pubali-bank-plc-2.svg",
+          "from": "logo new/pubali-bank-plc-seeklogo.svg",
+          "kb": 94,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/pubali-bank-plc.svg",
+      "full": "full/pubali-bank-plc.svg",
+      "live": null,
+      "icon_bytes": 13549,
+      "full_bytes": 27661,
+      "note": "Full logo and icon were both missing; sourced from the bank's official materials, icon cropped from the seal in the full logo.",
+      "icon_src": "traced 55\u00d753",
+      "full_src": "traced 290\u00d753"
+    },
+    {
+      "display": "Rajshahi Krishi Unnayan Bank",
+      "bank_name": "RAJSHAHI KRISHI UNNAYAN BANK",
+      "originals": [
+        {
+          "path": "original/rajshahi-krishi-unnayan-bank-1.svg",
+          "from": "logo new/rajshahi-krishi-unnayan-bank-rakub-seeklogo.svg",
+          "kb": 103,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/rajshahi-krishi-unnayan-bank.svg",
+      "full": "full/rajshahi-krishi-unnayan-bank.svg",
+      "live": null,
+      "icon_bytes": 125689,
+      "full_bytes": 568327,
+      "note": "Full logo replaced with the real RAKUB seal (the original file was an unrelated Facebook icon).",
+      "icon_src": "traced 192\u00d7192",
+      "full_src": "traced 316\u00d7316"
+    },
+    {
+      "display": "Rupali Bank PLC",
+      "bank_name": "RUPALI BANK LTD.",
+      "originals": [
+        {
+          "path": "original/rupali-bank-plc-1.svg",
+          "from": "logo new/logo_Rupali_bank.svg",
+          "kb": 92,
+          "kind": "traced"
+        }
+      ],
+      "icon": "icon/rupali-bank-plc.svg",
+      "full": "full/rupali-bank-plc.svg",
+      "live": null,
+      "icon_bytes": 27418,
+      "full_bytes": 31897,
+      "note": "",
+      "icon_src": "traced 300\u00d7300",
+      "full_src": "traced 500\u00d773"
+    },
+    {
+      "display": "SBAC Bank PLC",
+      "bank_name": "SBAC BANK LIMITED",
+      "originals": [
+        {
+          "path": "original/sbac-bank-plc-1.svg",
+          "from": "logo new/SBAC_Bank_Ltd.svg",
+          "kb": 65,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/sbac-bank-plc.svg",
+      "full": "full/sbac-bank-plc.svg",
+      "live": null,
+      "icon_bytes": 11474,
+      "full_bytes": 29442,
+      "note": "",
+      "icon_src": "traced 48\u00d748",
+      "full_src": "traced 500\u00d7212"
+    },
+    {
+      "display": "Shahjalal Islami Bank PLC",
+      "bank_name": "SHAHJALAL ISLAMI BANK LTD.",
+      "originals": [
+        {
+          "path": "original/shahjalal-islami-bank-plc-1.svg",
+          "from": "logo new/SJIBL_Logo_English_Blue-01.svg",
+          "kb": 91,
+          "kind": "traced"
+        }
+      ],
+      "icon": "icon/shahjalal-islami-bank-plc.svg",
+      "full": "full/shahjalal-islami-bank-plc.svg",
+      "live": null,
+      "icon_bytes": 11572,
+      "full_bytes": 315796,
+      "note": "Full logo was missing; sourced from official Shahjalal Islami Bank materials.",
+      "icon_src": "traced 48\u00d748",
+      "full_src": "traced 2148\u00d7542"
+    },
+    {
+      "display": "Shimanto Bank PLC",
+      "bank_name": "SHIMANTO BANK LIMITED",
+      "originals": [
+        {
+          "path": "original/shimanto-bank-plc-1.svg",
+          "from": "logo new/shimanto-bank-limited-seeklogo.svg",
+          "kb": 135,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/shimanto-bank-plc.svg",
+      "full": "full/shimanto-bank-plc.svg",
+      "live": null,
+      "icon_bytes": 34242,
+      "full_bytes": 62972,
+      "note": "Full logo and icon replaced (the original full_logo file was an unrelated photo); sourced from Wikipedia.",
+      "icon_src": "traced 178\u00d7150",
+      "full_src": "traced 675\u00d7150"
+    },
+    {
+      "display": "Social Islami Bank PLC",
+      "bank_name": "SOCIAL ISLAMI BANK LTD",
+      "originals": [
+        {
+          "path": "original/social-islami-bank-plc-1.svg",
+          "from": "logo new/social-islami-bank-limited-sibl-seeklogo.svg",
+          "kb": 73,
+          "kind": "vector"
+        },
+        {
+          "path": "original/social-islami-bank-plc-icon.svg",
+          "from": "extracted from social-islami-bank-plc-1.svg",
+          "kb": 10,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/social-islami-bank-plc.svg",
+      "full": "full/social-islami-bank-plc.svg",
+      "live": null,
+      "icon_bytes": 9351,
+      "full_bytes": 20632,
+      "note": "Full logo cropped from a combined rebrand-announcement graphic to isolate just the SIBL logo.",
+      "icon_src": "traced 32\u00d718",
+      "full_src": "traced 240\u00d7100"
+    },
+    {
+      "display": "Sonali Bank PLC",
+      "bank_name": "SONALI BANK LTD.",
+      "originals": [
+        {
+          "path": "original/sonali-bank-plc-1.svg",
+          "from": "logo new/Sonali_Bank_Limited.svg",
+          "kb": 4,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/sonali-bank-plc.svg",
+      "full": "full/sonali-bank-plc.svg",
+      "live": null,
+      "icon_bytes": 11315,
+      "full_bytes": 13936,
+      "note": "",
+      "icon_src": "traced 56\u00d756",
+      "full_src": "traced 223\u00d7218"
+    },
+    {
+      "display": "Southeast Bank PLC",
+      "bank_name": "SOUTHEAST BANK LTD.",
+      "originals": [
+        {
+          "path": "original/southeast-bank-plc-1.svg",
+          "from": "logo new/Logo_of_Southeast_Bank.svg",
+          "kb": 24,
+          "kind": "vector"
+        },
+        {
+          "path": "original/southeast-bank-plc-icon.svg",
+          "from": "extracted from southeast-bank-plc-1.svg",
+          "kb": 24,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/southeast-bank-plc.svg",
+      "full": "full/southeast-bank-plc.svg",
+      "live": null,
+      "icon_bytes": 9962,
+      "full_bytes": 33027,
+      "note": "Full logo replaced with the real Southeast Bank logo (the original file was an unrelated shopping-cart icon).",
+      "icon_src": "traced 49\u00d749",
+      "full_src": "vector"
+    },
+    {
+      "display": "Standard Bank PLC",
+      "bank_name": "STANDARD BANK LTD.",
+      "originals": [
+        {
+          "path": "original/standard-bank-plc-1.svg",
+          "from": "logo new/sibLogo.svg",
+          "kb": 10,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/standard-bank-plc.svg",
+      "full": "full/standard-bank-plc.svg",
+      "live": null,
+      "icon_bytes": 20924,
+      "full_bytes": 18619,
+      "note": "Icon was missing; derived by cropping the diamond monogram mark out of the bank's own full-logo SVG.",
+      "icon_src": "traced 178\u00d7205",
+      "full_src": "vector"
+    },
+    {
+      "display": "Standard Chartered Bank",
+      "bank_name": "STANDARD CHARTERED BANK",
+      "originals": [
+        {
+          "path": "original/standard-chartered-bank-1.svg",
+          "from": "logo new/Standard_Chartered_2021.svg",
+          "kb": 5,
+          "kind": "vector"
+        },
+        {
+          "path": "original/standard-chartered-bank-icon.svg",
+          "from": "extracted from standard-chartered-bank-1.svg",
+          "kb": 5,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/standard-chartered-bank.svg",
+      "full": "full/standard-chartered-bank.svg",
+      "live": null,
+      "icon_bytes": 9541,
+      "full_bytes": 13465,
+      "note": "Full logo and icon replaced with the real Standard Chartered logo (the original file was a mis-scraped 'OneTrust' cookie-consent graphic).",
+      "icon_src": "vector 26\u00d742",
+      "full_src": "vector 560\u00d7220"
+    },
+    {
+      "display": "The Premier Bank PLC",
+      "bank_name": "THE PREMIER BANK LTD.",
+      "originals": [
+        {
+          "path": "original/the-premier-bank-plc-1.svg",
+          "from": "logo new/Logo_of_Premier_Bank-en.svg",
+          "kb": 36,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/the-premier-bank-plc.svg",
+      "full": "full/the-premier-bank-plc.svg",
+      "live": null,
+      "icon_bytes": 13367,
+      "full_bytes": 45234,
+      "note": "Full logo and icon replaced (the original full_logo was a white-on-transparent 'knockout' version invisible on a white background).",
+      "icon_src": "traced 226\u00d7192",
+      "full_src": "traced 1200\u00d7254"
+    },
+    {
+      "display": "Trust Bank PLC",
+      "bank_name": "TRUST BANK LTD.",
+      "originals": [
+        {
+          "path": "original/trust-bank-plc-1.svg",
+          "from": "logo new/tbl-desktop-logo.svg",
+          "kb": 10,
+          "kind": "vector"
+        },
+        {
+          "path": "original/trust-bank-plc-icon.svg",
+          "from": "extracted from trust-bank-plc-1.svg",
+          "kb": 10,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/trust-bank-plc.svg",
+      "full": "full/trust-bank-plc.svg",
+      "live": null,
+      "icon_bytes": 13415,
+      "full_bytes": 21910,
+      "note": "Full logo and icon replaced with the correct Trust Bank logo (the original full_logo file was an unrelated stock photo).",
+      "icon_src": "traced 290\u00d7245",
+      "full_src": "traced 400\u00d7374"
+    },
+    {
+      "display": "Union Bank PLC",
+      "bank_name": "UNION BANK LTD.",
+      "originals": [
+        {
+          "path": "original/union-bank-plc-1.svg",
+          "from": "logo new/Logo_of_Union_Bank_(Bangladesh).svg",
+          "kb": 25,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/union-bank-plc.svg",
+      "full": "full/union-bank-plc.svg",
+      "live": null,
+      "icon_bytes": 12845,
+      "full_bytes": 22088,
+      "note": "Full logo cropped from a combined rebrand-announcement graphic to isolate just the Union Bank logo.",
+      "icon_src": "traced 35\u00d762",
+      "full_src": "traced 500\u00d790"
+    },
+    {
+      "display": "United Commercial Bank PLC",
+      "bank_name": "UNITED COMMERCIAL BANK LTD.",
+      "originals": [],
+      "icon": "icon/united-commercial-bank-plc.svg",
+      "full": "full/united-commercial-bank-plc.svg",
+      "live": null,
+      "icon_bytes": 13619,
+      "full_bytes": 13570,
+      "note": "Full logo replaced with the main UCB corporate logo (the original file was the 'UCB Imperial' priority-banking sub-brand).",
+      "icon_src": "traced 192\u00d7192",
+      "full_src": "vector"
+    }
+  ],
+  "extras": [
+    {
+      "display": "Bangladesh Bank \u2014 BANGLADESH BANK",
+      "bank_name": "BANGLADESH BANK",
+      "originals": [
+        {
+          "path": "original/bangladesh-bank-bangladesh-bank-1.svg",
+          "from": "logo new/\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6_\u09ac\u09cd\u09af\u09be\u0982\u0995\u09c7\u09b0_\u09aa\u09cd\u09b0\u09a4\u09c0\u0995.svg",
+          "kb": 35,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/bangladesh-bank-bangladesh-bank.svg",
+      "full": "full/bangladesh-bank-bangladesh-bank.svg",
+      "live": "current-live/bangladesh-bank-bangladesh-bank.jpg",
+      "icon_bytes": 13592,
+      "full_bytes": 180485,
+      "note": "",
+      "icon_src": "traced 32\u00d732",
+      "full_src": "traced 526\u00d7454"
+    },
+    {
+      "display": "BDBL \u2014 BANGLADESH DEVELOPMENT BANK LTD.",
+      "bank_name": "BANGLADESH DEVELOPMENT BANK LTD.",
+      "originals": [
+        {
+          "path": "original/bdbl-bangladesh-development-bank-ltd-1.svg",
+          "from": "logo new/Bangladesh_Development_Bank_logo.svg",
+          "kb": 20,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/bdbl-bangladesh-development-bank-ltd.svg",
+      "full": "full/bdbl-bangladesh-development-bank-ltd.svg",
+      "live": "current-live/bdbl-bangladesh-development-bank-ltd.jpg",
+      "icon_bytes": 12393,
+      "full_bytes": 18928,
+      "note": "",
+      "icon_src": "traced 48\u00d748",
+      "full_src": "traced 252\u00d7200"
+    },
+    {
+      "display": "BSBL \u2014 BANGLADESH SAMABAYA BANK LTD.",
+      "bank_name": "BANGLADESH SAMABAYA BANK LTD.",
+      "originals": [
+        {
+          "path": "original/bsbl-bangladesh-samabaya-bank-ltd-1.svg",
+          "from": "Bangladesh_Samabaya_Bank.svg",
+          "kb": 93,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/bsbl-bangladesh-samabaya-bank-ltd.svg",
+      "full": "full/bsbl-bangladesh-samabaya-bank-ltd.svg",
+      "live": "current-live/bsbl-bangladesh-samabaya-bank-ltd.jpg",
+      "icon_bytes": 12393,
+      "full_bytes": 19256,
+      "note": "",
+      "icon_src": "traced 48\u00d748",
+      "full_src": "traced 77\u00d778"
+    },
+    {
+      "display": "Citibank \u2014 CITI BANK N A",
+      "bank_name": "CITI BANK N A",
+      "originals": [
+        {
+          "path": "original/citibank-citi-bank-n-a-1.svg",
+          "from": "logo new/citiredesign.svg",
+          "kb": 1,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/citibank-citi-bank-n-a.svg",
+      "full": "full/citibank-citi-bank-n-a.svg",
+      "live": "current-live/citibank-citi-bank-n-a.jpg",
+      "icon_bytes": 13957,
+      "full_bytes": 9997,
+      "note": "Full logo was missing; sourced Citibank's standard vector logo.",
+      "icon_src": "traced 300\u00d7300",
+      "full_src": "vector"
+    },
+    {
+      "display": "ComBank \u2014 COMMERCIAL BANK OF CYLON",
+      "bank_name": "COMMERCIAL BANK OF CYLON",
+      "originals": [
+        {
+          "path": "original/combank-commercial-bank-of-cylon-1.svg",
+          "from": "logo new/Commercial_Bank_logo.svg",
+          "kb": 11,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/combank-commercial-bank-of-cylon.svg",
+      "full": "full/combank-commercial-bank-of-cylon.svg",
+      "live": "current-live/combank-commercial-bank-of-cylon.png",
+      "icon_bytes": 11095,
+      "full_bytes": 31531,
+      "note": "",
+      "icon_src": "traced 32\u00d732",
+      "full_src": "traced 500\u00d7128"
+    },
+    {
+      "display": "HBL \u2014 HABIB BANK LTD.",
+      "bank_name": "HABIB BANK LTD.",
+      "originals": [
+        {
+          "path": "original/hbl-habib-bank-ltd-1.svg",
+          "from": "logo new/HBL-Device-Logo-sponsorship.svg",
+          "kb": 8,
+          "kind": "vector"
+        },
+        {
+          "path": "original/hbl-habib-bank-ltd-2.svg",
+          "from": "logo new/Logo_of_Habib_Bank.svg",
+          "kb": 1,
+          "kind": "vector"
+        },
+        {
+          "path": "original/hbl-habib-bank-ltd-3.svg",
+          "from": "logo new/Logo_of_Habib_Bank_icon.svg",
+          "kb": 1,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/hbl-habib-bank-ltd.svg",
+      "full": "full/hbl-habib-bank-ltd.svg",
+      "live": "current-live/hbl-habib-bank-ltd.png",
+      "icon_bytes": 12081,
+      "full_bytes": 38910,
+      "note": "Full logo replaced (the original was a white-on-transparent 'knockout' version invisible on a white background).",
+      "icon_src": "traced 48\u00d748",
+      "full_src": "traced 478\u00d7131"
+    },
+    {
+      "display": "HSBC \u2014 HONGKONG & SHANGHAI BANKING CORP.",
+      "bank_name": "HONGKONG & SHANGHAI BANKING CORP.",
+      "originals": [
+        {
+          "path": "original/hsbc-hongkong-shanghai-banking-corp-1.svg",
+          "from": "logo new/hsbc-logo.svg",
+          "kb": 1,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/hsbc-hongkong-shanghai-banking-corp.svg",
+      "full": "full/hsbc-hongkong-shanghai-banking-corp.svg",
+      "live": "current-live/hsbc-hongkong-shanghai-banking-corp.png",
+      "icon_bytes": 13469,
+      "full_bytes": 9452,
+      "note": "",
+      "icon_src": "traced 192\u00d7192",
+      "full_src": "vector"
+    },
+    {
+      "display": "NBP \u2014 NATIONAL BANK OF PAKISTAN",
+      "bank_name": "NATIONAL BANK OF PAKISTAN",
+      "originals": [
+        {
+          "path": "original/nbp-national-bank-of-pakistan-1.svg",
+          "from": "logo new/NBP Logo.svg",
+          "kb": 25,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/nbp-national-bank-of-pakistan.svg",
+      "full": "full/nbp-national-bank-of-pakistan.svg",
+      "live": null,
+      "icon_bytes": 11488,
+      "full_bytes": 71368,
+      "note": "Full logo replaced (original file showed an 'NBP e-Remittance' sub-product graphic, not the bank's logo).",
+      "icon_src": "traced 16\u00d716",
+      "full_src": "traced 442\u00d7164"
+    },
+    {
+      "display": "SBI \u2014 STATE BANK OF INDIA",
+      "bank_name": "STATE BANK OF INDIA",
+      "originals": [
+        {
+          "path": "original/sbi-state-bank-of-india-1.svg",
+          "from": "logo new/SBI-logo.svg",
+          "kb": 1,
+          "kind": "vector"
+        },
+        {
+          "path": "original/sbi-state-bank-of-india-2.svg",
+          "from": "logo new/State_Bank_of_India_logo.svg",
+          "kb": 4,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/sbi-state-bank-of-india.svg",
+      "full": "full/sbi-state-bank-of-india.svg",
+      "live": null,
+      "icon_bytes": 8246,
+      "full_bytes": 13211,
+      "note": "",
+      "icon_src": "traced 16\u00d716",
+      "full_src": "traced 219\u00d775"
+    },
+    {
+      "display": "Uttara Bank \u2014 UTTARA BANK LTD.",
+      "bank_name": "UTTARA BANK LTD.",
+      "originals": [
+        {
+          "path": "original/uttara-bank-uttara-bank-ltd-1.svg",
+          "from": "logo new/Logo_of_Uttara_Bank.svg",
+          "kb": 26,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/uttara-bank-uttara-bank-ltd.svg",
+      "full": "full/uttara-bank-uttara-bank-ltd.svg",
+      "live": null,
+      "icon_bytes": 9001,
+      "full_bytes": 21230,
+      "note": "",
+      "icon_src": "traced 18\u00d725",
+      "full_src": "traced 263\u00d780"
+    },
+    {
+      "display": "Woori Bank \u2014 WOORI BANK",
+      "bank_name": "WOORI BANK",
+      "originals": [
+        {
+          "path": "original/woori-bank-woori-bank-1.svg",
+          "from": "logo new/Logo_of_Woori_Bank.svg",
+          "kb": 43,
+          "kind": "vector"
+        },
+        {
+          "path": "original/woori-bank-woori-bank-icon.svg",
+          "from": "extracted from woori-bank-woori-bank-1.svg",
+          "kb": 43,
+          "kind": "vector"
+        }
+      ],
+      "icon": "icon/woori-bank-woori-bank.svg",
+      "full": "full/woori-bank-woori-bank.svg",
+      "live": null,
+      "icon_bytes": 12109,
+      "full_bytes": 19186,
+      "note": "Full logo replaced (the original was a white-on-transparent wordmark invisible on a white background).",
+      "icon_src": "traced 144\u00d7144",
+      "full_src": "vector"
+    }
+  ]
+}
