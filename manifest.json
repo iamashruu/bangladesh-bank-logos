@@ -107,6 +107,12 @@
           "from": "Bangladesh_Krishi_Bank.svg",
           "kb": 67,
           "kind": "vector"
+        },
+        {
+          "path": "original/bangladesh-krishi-bank-2.svg",
+          "from": "bangladesh-krishi-bank-seeklogo.eps (EPS -> PDF -> SVG)",
+          "kb": 103,
+          "kind": "vector"
         }
       ],
       "icon": "icon/bangladesh-krishi-bank.svg",
