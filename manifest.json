@@ -483,6 +483,12 @@
           "from": "logo new/islami-bank-bangladesh-plc-seeklogo.svg",
           "kb": 141,
           "kind": "vector"
+        },
+        {
+          "path": "original/islami-bank-bangladesh-plc-icon.svg",
+          "from": "extracted from islami-bank-bangladesh-plc-1.svg",
+          "kb": 141,
+          "kind": "vector"
         }
       ],
       "icon": "icon/islami-bank-bangladesh-plc.svg",
