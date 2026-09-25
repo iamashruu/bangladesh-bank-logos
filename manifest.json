@@ -66,7 +66,22 @@
           "path": "original/al-arafah-islami-bank-plc-1.svg",
           "from": "logo new/al-arafah-islami-bank-plc-seeklogo-3.svg",
           "kb": 50,
-          "kind": "vector"
+          "kind": "vector",
+          "form": "wordmark"
+        },
+        {
+          "path": "original/al-arafah-islami-bank-plc-icon.svg",
+          "from": "extracted from al-arafah-islami-bank-plc-1.svg",
+          "kb": 50,
+          "kind": "vector",
+          "form": "icon"
+        },
+        {
+          "path": "original/al-arafah-islami-bank-plc-2.svg",
+          "from": "al-arafah-islami-bank-limited-seeklogo.eps (EPS -> PDF -> SVG)",
+          "kb": 189,
+          "kind": "vector",
+          "form": "wordmark"
         }
       ],
       "icon": "icon/al-arafah-islami-bank-plc.svg",
@@ -302,7 +317,15 @@
           "path": "original/community-bank-bangladesh-plc-1.svg",
           "from": "logo new/community-bank-seeklogo.svg",
           "kb": 96,
-          "kind": "vector"
+          "kind": "vector",
+          "form": "wordmark"
+        },
+        {
+          "path": "original/community-bank-bangladesh-plc-icon.svg",
+          "from": "extracted from community-bank-bangladesh-plc-1.svg",
+          "kb": 96,
+          "kind": "vector",
+          "form": "icon"
         }
       ],
       "icon": "icon/community-bank-bangladesh-plc.svg",

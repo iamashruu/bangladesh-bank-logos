@@ -311,9 +311,27 @@ straight win.
 - [ ] **Named** `<bank-slug>-<n>.svg`, matching the slug already in `manifest.json`
 - [ ] **Sourced** — state the URL you took it from and the licence on that page, in the PR description
 
-**After adding or replacing a file**, regenerate `logos-data.js` so the gallery's copy buttons pick
-up the new source. It is a plain generated file — a short script that walks `original/` and writes the
-bank list plus each SVG's text.
+**After adding or replacing a file**, add it to `manifest.json` and regenerate `logos-data.js`, which
+is what the gallery's copy buttons read:
+
+```bash
+python3 tools/build-data.py
+```
+
+A manifest entry may pin `"form": "icon"` or `"form": "wordmark"`. Without one the form is inferred
+from the artwork's aspect ratio, which is right for most files and wrong for a **stacked lockup** —
+square, yet carrying the bank's name. Community Bank and Al-Arafah are both pinned for this reason.
+
+**If you have the logo as EPS or AI**, it converts to real vector rather than a trace:
+
+```bash
+gs -dNOPAUSE -dBATCH -dSAFER -sDEVICE=pdfwrite -dEPSCrop -sOutputFile=logo.pdf logo.eps
+pdftocairo -svg logo.pdf logo.svg        # an .ai file is already a PDF; skip the first step
+```
+
+Check the result before committing it: stock vector packs often wrap the mark in a coloured
+background plate spanning the whole artboard, which has to be removed so the logo is transparent,
+and the `viewBox` re-cropped to the artwork once it is gone.
 
 **Also welcome:** identifying the two files in `unidentified/`, and any part of the licensing audit
 above.
