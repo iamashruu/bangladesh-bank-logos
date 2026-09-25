@@ -7,7 +7,7 @@
 Every logo is shown at 40&nbsp;px next to the auto-traced and raster versions it replaces, so you can
 see what you are getting before you ship it.
 
-`50/52` directory banks have a true vector &nbsp;·&nbsp; `40/63` have a crisp
+`50/52` directory banks have a true vector &nbsp;·&nbsp; `41/63` have a crisp
 vector icon &nbsp;·&nbsp; `88/90` files are genuine vector art &nbsp;·&nbsp; `0` embedded rasters
 
 **[→ Browse the gallery](https://iamashruu.github.io/bangladesh-bank-logos/)**
@@ -43,7 +43,7 @@ tiers are kept alongside it for comparison rather than thrown away.
 | --- | --- |
 | Banks covered | **52** in the main directory, **11** additional (foreign / central / cooperative) |
 | True vector originals | **88** of 90 files |
-| Banks with a crisp vector icon | **39** of 63 |
+| Banks with a crisp vector icon | **41** of 63 |
 | SVGs containing embedded rasters | **0** |
 | Auto-traced comparison set | 124 files (`icon/`, `full/`) |
 | Raster comparison set | 29 files (`current-live/`) |
@@ -250,8 +250,10 @@ reads each file's trace source — tracers record it as the SVG's own `width`/`h
 trace whose source was under 120&nbsp;px on its shortest edge**. That removed 18 files, including the
 BASIC Bank wordmark traced from 314&times;57 and ten icons traced from favicons of 16&times;16 to 48&times;48.
 
-21 traces remain, all from sources of 120&nbsp;px or more, and they are still marked `lower quality`
-in the gallery. The threshold lives in `tools/build-data.py` as `MIN_TRACE_EDGE`.
+18 traces remain, all from sources of 120&nbsp;px or more, and they are still marked `lower quality`
+in the gallery. The threshold lives in `tools/build-data.py` as `MIN_TRACE_EDGE`. A handful of files clear it but
+still read badly — a mangled strapline, say — and those are listed in `exclude.json` with a reason;
+the build never publishes anything named there.
 
 The cost is that **18 banks now show only one of the two forms** rather than a soft stand-in for the
 other — 14 have no icon, 4 no wordmark. Supplying real vector art for those is the most useful thing

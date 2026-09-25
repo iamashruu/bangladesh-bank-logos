@@ -16,6 +16,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(ROOT)
 
 SHORT_CODES = "codes.json"        # optional: {"BANK NAME": "CODE"}; absent is fine
+EXCLUDE = "exclude.json"          # optional: {"path/to/file.svg": "why"} -- never published
 
 
 def artbox(path):
@@ -37,6 +38,7 @@ def infer_form(path):
 # bitmap it was traced FROM -- tracers record that as the SVG's width/height -- rather than by the
 # folder it happens to sit in. Anything below this on its shortest edge is dropped from the gallery.
 MIN_TRACE_EDGE = 120
+EXCLUDED = set()
 
 
 def trace_info(path):
@@ -80,10 +82,12 @@ def entry(bank, group, codes):
         if p and os.path.exists(p) and not any(v["path"] == p for v in variants):
             variants.append(make(p, max(1, bank[f"{key}_bytes"] // 1024), want))
 
-    # Drop traces made from a source too small to hold its own detail.
+    # Drop traces made from a source too small to hold its own detail, plus anything
+    # listed in exclude.json.
     variants = [v for v in variants
-                if v["quality"] != "traced"
-                or (v["edge"] is not None and v["edge"] >= MIN_TRACE_EDGE)]
+                if v["path"] not in EXCLUDED
+                and (v["quality"] != "traced"
+                     or (v["edge"] is not None and v["edge"] >= MIN_TRACE_EDGE))]
     for v in variants:
         v.pop("edge", None)
 
@@ -105,6 +109,8 @@ def entry(bank, group, codes):
 def main():
     manifest = json.load(open("manifest.json"))
     codes = json.load(open(SHORT_CODES)) if os.path.exists(SHORT_CODES) else {}
+    global EXCLUDED
+    EXCLUDED = set(json.load(open(EXCLUDE))) if os.path.exists(EXCLUDE) else set()
 
     banks = ([entry(b, "bd", codes) for b in manifest["banks"]] +
              [entry(b, "intl", codes) for b in manifest["extras"]])

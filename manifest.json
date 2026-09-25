@@ -272,14 +272,7 @@
     {
       "display": "Citizens Bank PLC",
       "bank_name": "CITIZENS BANK PLC",
-      "originals": [
-        {
-          "path": "original/citizens-bank-plc-1.svg",
-          "from": "logo new/logo-citizens__horz-green.svg",
-          "kb": 6,
-          "kind": "vector"
-        }
-      ],
+      "originals": [],
       "icon": "icon/citizens-bank-plc.svg",
       "full": "full/citizens-bank-plc.svg",
       "live": "current-live/citizens-bank-plc.jpg",
@@ -1241,7 +1234,15 @@
           "path": "original/bdbl-bangladesh-development-bank-ltd-1.svg",
           "from": "logo new/Bangladesh_Development_Bank_logo.svg",
           "kb": 20,
-          "kind": "vector"
+          "kind": "vector",
+          "form": "wordmark"
+        },
+        {
+          "path": "original/bdbl-bangladesh-development-bank-ltd-icon.svg",
+          "from": "extracted from bdbl-bangladesh-development-bank-ltd-1.svg",
+          "kb": 20,
+          "kind": "vector",
+          "form": "icon"
         }
       ],
       "icon": "icon/bdbl-bangladesh-development-bank-ltd.svg",
@@ -1354,6 +1355,13 @@
           "from": "logo new/hsbc-logo.svg",
           "kb": 1,
           "kind": "vector"
+        },
+        {
+          "path": "original/hsbc-hongkong-shanghai-banking-corp-icon.svg",
+          "from": "extracted from hsbc-hongkong-shanghai-banking-corp-1.svg",
+          "kb": 1,
+          "kind": "vector",
+          "form": "icon"
         }
       ],
       "icon": "icon/hsbc-hongkong-shanghai-banking-corp.svg",
