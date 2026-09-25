@@ -7,7 +7,7 @@
 Every logo is shown at 40&nbsp;px next to the auto-traced and raster versions it replaces, so you can
 see what you are getting before you ship it.
 
-`50/52` directory banks have a true vector &nbsp;·&nbsp; `39/63` have a crisp
+`50/52` directory banks have a true vector &nbsp;·&nbsp; `40/63` have a crisp
 vector icon &nbsp;·&nbsp; `88/90` files are genuine vector art &nbsp;·&nbsp; `0` embedded rasters
 
 **[→ Browse the gallery](https://iamashruu.github.io/bangladesh-bank-logos/)**
@@ -244,11 +244,18 @@ would be asserting a right nobody here holds.
 | United Commercial Bank PLC | Auto-traced mark only. Not on Wikimedia Commons. |
 | Probashi Kollyan Bank | **Nothing at all** — no vector, no traced mark, no raster, and no row in the source directory. |
 
-**24 banks still have a traced icon**, because they have no vector symbol of their own and their
-wordmark has none to carve out — either it is pure lettering with no separate mark (Dhaka Bank, EXIM,
-Islami Bank) or the symbol and the type are one shape. These are the soft ones at 40&nbsp;px. A real
-vector from the bank's brand kit is the only fix; the gallery labels each of them `lower quality` so
-nobody ships one unknowingly.
+**Nothing blurry is published.** A trace is only as good as the bitmap it came from: tracing a
+3000&nbsp;px source gives clean curves, tracing a 16&times;16 favicon gives mush at every size. The build
+reads each file's trace source — tracers record it as the SVG's own `width`/`height` — and **drops any
+trace whose source was under 120&nbsp;px on its shortest edge**. That removed 18 files, including the
+BASIC Bank wordmark traced from 314&times;57 and ten icons traced from favicons of 16&times;16 to 48&times;48.
+
+21 traces remain, all from sources of 120&nbsp;px or more, and they are still marked `lower quality`
+in the gallery. The threshold lives in `tools/build-data.py` as `MIN_TRACE_EDGE`.
+
+The cost is that **18 banks now show only one of the two forms** rather than a soft stand-in for the
+other — 14 have no icon, 4 no wordmark. Supplying real vector art for those is the most useful thing
+anyone can contribute; see **Known gaps**.
 
 ### A wrong logo, found and fixed
 

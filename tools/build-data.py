@@ -33,6 +33,21 @@ def infer_form(path):
     return "icon" if h and w / h <= 1.6 else "wordmark"
 
 
+# A trace of a favicon is mush at any size; a trace of a large source is not. Judge each file by the
+# bitmap it was traced FROM -- tracers record that as the SVG's width/height -- rather than by the
+# folder it happens to sit in. Anything below this on its shortest edge is dropped from the gallery.
+MIN_TRACE_EDGE = 120
+
+
+def trace_info(path):
+    """(is_traced, source_shortest_edge). Shortest edge is None when it cannot be read."""
+    head = open(path, encoding="utf8", errors="ignore").read(900)
+    if "VTracer" not in head and "ezgif" not in head:
+        return False, None            # no tracer signature: real vector, wherever it lives
+    m = re.search(r'\bwidth="([\d.]+)"\s*height="([\d.]+)"', head)
+    return True, (min(float(m.group(1)), float(m.group(2))) if m else None)
+
+
 def hint(src):
     if src.startswith("extracted"):
         return None
@@ -48,12 +63,13 @@ def hint(src):
 
 def entry(bank, group, codes):
     name = bank["display"].split(" — ")[0]
-    variants = [{
-        "path": o["path"], "kb": o["kb"],
-        "form": o.get("form") or infer_form(o["path"]),
-        "quality": "traced" if o["kind"] == "traced" else "vector",
-        "h": hint(o["from"]),
-    } for o in bank["originals"]]
+    def make(path, kb, form=None, hint_from=""):
+        traced, edge = trace_info(path)
+        return {"path": path, "kb": kb, "form": form or infer_form(path),
+                "quality": "traced" if traced else "vector", "edge": edge,
+                "h": hint(hint_from)}
+
+    variants = [make(o["path"], o["kb"], o.get("form"), o["from"]) for o in bank["originals"]]
 
     # Guarantee both lockups where the repo can, falling back to the traced packs only for a
     # form that is otherwise missing entirely.
@@ -62,8 +78,14 @@ def entry(bank, group, codes):
             continue
         p = bank.get(key)
         if p and os.path.exists(p) and not any(v["path"] == p for v in variants):
-            variants.append({"path": p, "kb": max(1, bank[f"{key}_bytes"] // 1024),
-                             "form": want, "quality": "traced", "h": None})
+            variants.append(make(p, max(1, bank[f"{key}_bytes"] // 1024), want))
+
+    # Drop traces made from a source too small to hold its own detail.
+    variants = [v for v in variants
+                if v["quality"] != "traced"
+                or (v["edge"] is not None and v["edge"] >= MIN_TRACE_EDGE)]
+    for v in variants:
+        v.pop("edge", None)
 
     # Card default is the recognisable full logo; the icon is one click or one filter away.
     variants.sort(key=lambda v: (v["quality"] != "vector", v["form"] != "wordmark"))
@@ -110,8 +132,13 @@ def main():
     variants = sum(len(b["variants"]) for b in banks)
     vi = sum(1 for b in banks for v in b["variants"]
              if v["form"] == "icon" and v["quality"] == "vector")
-    print(f"{len(banks)} banks, {variants} variants, {vi} crisp vector icons "
+    traced = sum(1 for b in banks for v in b["variants"] if v["quality"] == "traced")
+    empty = [b["name"] for b in banks if not b["variants"]]
+    print(f"{len(banks)} banks, {variants} variants ({traced} traced, all from sources "
+          f">= {MIN_TRACE_EDGE}px), {vi} crisp vector icons "
           f"-> logos-data.js ({os.path.getsize('logos-data.js') // 1024} KB)")
+    if empty:
+        print("banks with no artwork: " + ", ".join(empty))
 
 
 if __name__ == "__main__":
